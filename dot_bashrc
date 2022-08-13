@@ -116,4 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export GPG_TTY=$(tty)
+alias vim=nvim
+alias cm=chezmoi
