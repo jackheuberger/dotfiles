@@ -4,3 +4,4 @@ alias cm=chezmoi
 export PATH=$PATH:/usr/local/bin:/usr/local/go/bin:/home/jackh/bin
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
+export EDITOR=nvim
