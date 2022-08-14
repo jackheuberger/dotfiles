@@ -1,4 +1,7 @@
 call plug#begin()
+    " LSP
+    Plug 'neovim/nvim-lspconfig'
+
     " visuals
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
