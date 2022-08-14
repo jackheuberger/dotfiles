@@ -1,3 +1,4 @@
 # Jack's Dotfiles
 
-Install `yadm`, then `yadm clone` this repo.
+Install chezmoi, and run:
+`   - ````chezmoi init --apply git@github.com:jackheuberger/dotfiles.git`
