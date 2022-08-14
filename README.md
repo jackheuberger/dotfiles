@@ -1,4 +1,3 @@
-# Dotfiles
+# Jack's Dotfiles
 
-Install using chezmoi:
-  - `sh -c "$(curl -fsLS https://chezmoi.io/get)" -- init --apply jackheuberger`
+Install `yadm`, then `yadm clone` this repo.
