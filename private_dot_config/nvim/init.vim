@@ -1,24 +1,24 @@
 call plug#begin()
-    " visuals
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
-    Plug 'ryanoasis/vim-devicons'
-    Plug 'bryanmylee/vim-colorscheme-icons'
-    Plug 'sonph/onehalf', { 'rtp': 'vim' }
+" visuals
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'ryanoasis/vim-devicons'
+Plug 'bryanmylee/vim-colorscheme-icons'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
-    " functionality
-    Plug 'junegunn/goyo.vim'
-    Plug 'junegunn/limelight.vim'
-    Plug 'tpope/vim-fugitive'
-    Plug 'tpope/vim-sensible'
-    Plug 'tpope/vim-surround'
-    Plug 'preservim/nerdtree'
+" functionality
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-surround'
+Plug 'preservim/nerdtree'
 
-    Plug 'alvan/vim-closetag'
-    Plug 'Yggdroot/indentLine'
-    Plug 'sheerun/vim-polyglot'
+Plug 'alvan/vim-closetag'
+Plug 'Yggdroot/indentLine'
+Plug 'sheerun/vim-polyglot'
+
 call plug#end()
-
 set number
 noremap <F1> :set rnu! rnu?<CR>
 colorscheme onehalfdark
