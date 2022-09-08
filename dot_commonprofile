@@ -5,3 +5,5 @@ export PATH=$PATH:/usr/local/bin:/usr/local/go/bin:/home/jackh/bin
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export EDITOR=nvim
+
+[ -f "/home/jackh/.ghcup/env" ] && source "/home/jackh/.ghcup/env" # ghcup-env
