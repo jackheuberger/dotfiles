@@ -1,9 +1,15 @@
 alias vim=nvim
 alias cm=chezmoi
 
-export PATH=$PATH:/usr/local/bin:/usr/local/go/bin:/home/jackh/bin
+export PATH=/home/jackh.rpitools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin:/usr/local/bin:/usr/local/go/bin:/home/jackh/bin:/home/jackh/.emacs.d/bin:$PATH
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export EDITOR=nvim
 
 [ -f "/home/jackh/.ghcup/env" ] && source "/home/jackh/.ghcup/env" # ghcup-env
+. "$HOME/.cargo/env"
+
+export PNPM_HOME="/home/jackh/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+alias pn=pnpm
+alias pnx="pnpm dlx"

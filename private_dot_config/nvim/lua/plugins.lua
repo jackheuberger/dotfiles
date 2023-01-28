@@ -40,8 +40,6 @@ lsp.hls.setup(coq.lsp_ensure_capabilities{})
 
 lsp.tsserver.setup(coq.lsp_ensure_capabilities{})
 
-lsp.mdl.setup{}
-
 vim.cmd('COQnow')
 
 --let g:airline_theme = 'onehalfdark'
