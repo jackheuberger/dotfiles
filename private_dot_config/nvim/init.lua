@@ -1,6 +1,2 @@
--- load configs
-
-require('options')
-require('keymaps')
-require('plugins')
-require('themes')  -- Theme at the end, to prevent overwrite by other plugins
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")

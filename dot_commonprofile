@@ -13,3 +13,6 @@ export PNPM_HOME="/home/jackh/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 alias pn=pnpm
 alias pnx="pnpm dlx"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
