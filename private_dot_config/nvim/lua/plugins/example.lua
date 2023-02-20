@@ -4,16 +4,6 @@ if true then return {
     -- Disable Plugins
     { "tpope/vim-sleuth", enabled = false }, -- Disable auto indenting. See config/options.lua
 
-    "sainnhe/everforest",
-
-    -- Default Colorscheme
-    {
-        "LazyVim/LazyVim",
-        opts = {
-            colorscheme = "everforest"
-        }
-    },
-
 } end
 
 -- every spec file under config.plugins will be loaded automatically by lazy.nvim

@@ -1,5 +1,6 @@
 -- stylua: ignore
 return {
+    -- tresitter required plugins
     {
         "nvim-treesitter/nvim-treesitter",
         opts = {
@@ -19,6 +20,18 @@ return {
                 "typescript",
                 "vim",
                 "yaml",
+            },
+        },
+    },
+    {
+        "neovim/nvim-lspconfig",
+        ---@class PluginLspOpts
+        opts = {
+            ---@type lspconfig.options
+            servers = {
+                -- pyright will be automatically installed with mason and loaded with lspconfig
+                pyright = {},
+                clangd = {},
             },
         },
     },
