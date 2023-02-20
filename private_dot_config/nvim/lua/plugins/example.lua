@@ -14,28 +14,6 @@ if true then return {
         }
     },
 
-    {
-        "nvim-treesitter/nvim-treesitter",
-        opts = {
-            ensure_installed = {
-                "bash",
-                "help",
-                "html",
-                "javascript",
-                "json",
-                "lua",
-                "markdown",
-                "markdown_inline",
-                "python",
-                "query",
-                "regex",
-                "tsx",
-                "typescript",
-                "vim",
-                "yaml",
-            },
-        },
-    },
 } end
 
 -- every spec file under config.plugins will be loaded automatically by lazy.nvim
