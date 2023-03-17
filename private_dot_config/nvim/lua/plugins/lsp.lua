@@ -23,6 +23,7 @@ return {
             },
         },
     },
+
     {
         "neovim/nvim-lspconfig",
         ---@class PluginLspOpts
@@ -31,10 +32,13 @@ return {
             servers = {
                 -- pyright will be automatically installed with mason and loaded with lspconfig
                 pyright = {},
-                clangd = {
-                    cmd = {"clangd", [["--query-driver=/usr/bin/gcc"]]}
-                },
+                clangd = {},
             },
+            setup = {},
         },
-    }
+    },
+
+    {
+        "github/copilot.vim",
+    },
 }
