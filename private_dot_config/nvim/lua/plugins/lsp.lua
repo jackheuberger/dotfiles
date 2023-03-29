@@ -33,7 +33,4 @@ return {
       },
     },
   },
-  {
-    "github/copilot.vim",
-  },
 }
