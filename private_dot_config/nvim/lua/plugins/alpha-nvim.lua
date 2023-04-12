@@ -42,8 +42,7 @@ return {
             layout = {
                 { type = "padding", val = top_padding },
                 header,
-                { type = "padding", val = 14 },
-                { type = "padding", val = 2 },
+                { type = "padding", val = 10 },
                 buttons,
             },
         }
