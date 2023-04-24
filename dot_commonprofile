@@ -1,7 +1,7 @@
 alias vim=nvim
 alias cm=chezmoi
 
-export PATH=/home/jackh.rpitools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin:/usr/local/bin:/usr/local/go/bin:/home/jackh/bin:/home/jackh/.emacs.d/bin:$PATH
+export PATH=/home/jackh/.bin:/usr/local/bin:/usr/local/go/bin:/home/jackh/bin:/home/jackh/.emacs.d/bin:$PATH
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export EDITOR=nvim
